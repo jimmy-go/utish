@@ -4,6 +4,8 @@
 
 **gts**: Short for `git status`.
 
+**gdiff**: Short for `git diff`.
+
 **gpull**: Short for `git pull origin $1`.
 
 **gdev**: Pull develop branch and current branch `git pull origin develop; git pull origin $1`.
