@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Loaded *NIX shell utils."
+echo "Loaded Unix shell utils."
 
 ## GIT
 
