@@ -1,3 +1,11 @@
 var s = process.argv[2]
-var res = JSON.parse(s)
-console.log(JSON.stringify(res, null, 4))
+s = s.replace(/\\n/g, '')
+s = s.replace(/\\r/g, '')
+s = s.replace(/\\t/g, '')
+s = s.replace(/\\/g, '')
+s = s.replace(/\ /g, '')
+s = s.replace('"{', '{')
+s = s.replace('}"', '}')
+var obj = JSON.parse(s)
+var res = JSON.stringify(obj, null, 4)
+console.log(res)

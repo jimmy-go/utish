@@ -5,6 +5,7 @@ echo "Loaded Unix shell utils."
 ## GIT
 
 alias gts='git status';
+alias gdiff='git diff';
 alias gpull='git pull origin $1';
 alias gdev='git pull origin develop; git pull origin $1';
 
