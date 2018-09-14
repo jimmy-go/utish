@@ -13,6 +13,10 @@ alias gdev='git pull origin develop; git pull origin $1';
 
 alias wdcopy='pwd|pbcopy';
 
+# Screencapture a programa/window.
+
+alias windowcapture='screencapture -iW $HOME/Desktop/Capture_$(date +%s).png'
+
 ## JSON to Struct
 # Example: JSON=$(cat ~/Desktop/swagger20.json); json2struct "$JSON" | pbcopy
 
