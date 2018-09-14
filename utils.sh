@@ -17,6 +17,12 @@ alias wdcopy='pwd|pbcopy';
 
 alias windowcapture='screencapture -iW $HOME/Desktop/Capture_$(date +%s).png'
 
+# Find inside files using grep.
+
+rni () {
+    grep -Rni "$1" $2
+}
+
 ## JSON to Struct
 # Example: JSON=$(cat ~/Desktop/swagger20.json); json2struct "$JSON" | pbcopy
 
